@@ -27,7 +27,7 @@ docker run -d -p 8000:8000 --name text-api text-api
 
 #### Opción B: Ejecución local con uv
 
-Este proyecto utiliza uv para una gestión de dependencias rápido y eficiente.
+Este proyecto utiliza uv para una gestión de dependencias rápida y eficiente.
 Instalar dependencias:
 ```bash 
 uv sync
