@@ -1,4 +1,9 @@
 # simple-text-endpoint
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)
+
 API técnica desarrollada con **Python** y **FastAPI** para el procesamiento de strings mediante un endpoint POST. Este proyecto ha sido diseñado siguiendo buenas prácticas de desarrollo, incluyendo tipado estático, pruebas automatizadas y despliegue continuo (CI/CD).
 
 ## 🚀 Inicio Rápido
