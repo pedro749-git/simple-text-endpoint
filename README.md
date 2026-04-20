@@ -27,7 +27,7 @@ docker run -d -p 8000:8000 --name text-api text-api
 
 #### Opción B: Ejecución local con uv
 
-Este proyecto utiliza uv para una gestión de dependencias.
+Este proyecto utiliza uv para una gestión de dependencias rápido y eficiente.
 Instalar dependencias:
 ```bash 
 uv sync
@@ -76,7 +76,7 @@ Se han implementado tests unitarios con pytest para cubrir casos de éxito, stri
 
 El proyecto incluye un flujo en GitHub Actions que se activa en cada push a la rama main:
 
-- Linter & Test: Verifica que el código cumple los estándares y pasa las pruebas.
+- Test: Verifica que el código cumple los estándares y pasa las pruebas.
 
 - Build & Push: Construye la imagen de Docker y la sube automáticamente a Docker Hub solo si los tests son exitosos.
 
